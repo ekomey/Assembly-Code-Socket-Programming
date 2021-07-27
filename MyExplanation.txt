@@ -1,0 +1,16 @@
+Issam Al Komey
+025577
+
+The parameters required by puttytel to launch a successful connection is by altering the Telnet negotiation mode from Active to Passive.
+In addition, you have to insert the matching Host Name (or IP address) that you inserted in the command window 
+and you have to  the same Port number that was  chosen by the server.
+
+-WSAStartup() function is required before putting sockets into use consequently  that the operating system uses dynamically linked libraries (DLLs). 
+-Socket() and bind() functions are used to produce a socket and bind to a known address.
+-Listen() functions is to activate passive mode for the socket  thus it will be capable to obtain incoming connections.
+-accept() function is there to receive next connection request from the socket and become functional to new socket for connection. 
+
+-recv() and send() functions to assigned to receive from  the client. Furthermore, it also conveys a response and responds back to the client. 
+-closesocket() function are assigned to closedown the  connection and return to the accept() function. 
+-WSACleanup(), used only when it is entirely ended and prepared to exit. 
+-WSAGetLastError() function to re-claim  a certain error code subsequent to a failed attempt to socket function call
